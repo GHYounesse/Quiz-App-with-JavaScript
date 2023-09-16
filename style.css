@@ -1,0 +1,70 @@
+body {
+	background-color: aliceblue;
+    background-image: url("back.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.question {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.options {
+	font-size: 30px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	top: 40%;
+	left: 40%;
+}
+
+button {
+	
+	margin-top: 0%;
+	font-size: 20px;
+	padding: 15px 30px;
+	background-color: black;
+	color:#eeba2c;
+	border: none;
+	cursor: pointer;
+}
+
+#links {
+	margin-top: 2%;
+	font-size: 20px;
+	padding: 15px 30px;
+	background-color: black;
+	color:#eeba2c;
+	border: none;
+    border-radius: 0%;
+    
+}
+
+#score {
+	font-size: 30px;
+	color: darkslategray;
+}
+.card {
+    border-radius: 4px;
+    width:max-content;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 12.5%;
+    align-items: center;
+	justify-content: center;
+
+}
+.card-body{
+    background-color:#eeba2c ;
+    text-align: center;
+}
+input[type='radio']{
+    width: 20px;
+    height: 20px;
+}
